@@ -1,6 +1,8 @@
 const path = require(`path`)
 const chunk = require(`lodash/chunk`)
 
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
+
 // This is a simple debugging tool
 // dd() will prettily dump to the terminal and kill the process
 // const { dd } = require(`dumper.js`)
